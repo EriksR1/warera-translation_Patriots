@@ -1266,10 +1266,6 @@ msgstr "عدد <0>العمال</0> الذين يمكنك إدارتهم. وحد 
 msgid "Amount of companies you can own"
 msgstr "عدد الشركات التي يمكنك امتلاكها"
 
-#: src/components/_user/modals/PhoneVerificationModal.tsx:108
-msgid "An administrator has requested that you verify your phone number. Please complete the verification as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days."
-msgstr ""
-
 #: src/components/_political/event/event.frontConfig.tsx:339
 msgid "An alliance has been broken"
 msgstr "تم نقض التحالف"
@@ -6937,6 +6933,10 @@ msgstr "شريط <0>الإنتاج</0> الخاص بك ممتلئ! انقر لإ
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:96
 msgid "Your account has been automatically reported for cheating"
 msgstr "تم الإبلاغ عن حسابك تلقائياً بسبب الغش"
+
+#: src/components/_user/modals/PhoneVerificationModal.tsx:108
+msgid "Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:74
 msgid "Your ancestors are proud"

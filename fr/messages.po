@@ -1266,10 +1266,6 @@ msgstr "Nombre de <0>Travailleurs</0> que vous pouvez gérer. Et limite d'embauc
 msgid "Amount of companies you can own"
 msgstr "Nombre d'entreprises que vous pouvez posséder"
 
-#: src/components/_user/modals/PhoneVerificationModal.tsx:108
-msgid "An administrator has requested that you verify your phone number. Please complete the verification as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days."
-msgstr ""
-
 #: src/components/_political/event/event.frontConfig.tsx:339
 msgid "An alliance has been broken"
 msgstr "Une alliance a été brisée"
@@ -6937,6 +6933,10 @@ msgstr "Ta barre de <0>Production</0> est pleine ! Clique pour produire des obje
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:96
 msgid "Your account has been automatically reported for cheating"
 msgstr "Ton compte a été automatiquement signalé pour triche"
+
+#: src/components/_user/modals/PhoneVerificationModal.tsx:108
+msgid "Your account requires additional verification. Please verify your phone number as soon as possible to continue using your account normally. Unverified accounts will have restricted access after 48 hours and may be permanently suspended after 5 days."
+msgstr ""
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:74
 msgid "Your ancestors are proud"
