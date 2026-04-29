@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>رموز تعبيرية</0> في الدردشة"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>كل <1/> ضرر يتم إلحاقه في هذه الجولة من كلا الجانبين يضيف <2>{0}</2> إلى مجموعة غنائم الجولة.</0><3>يتم توزيع غنائم الجولة في نهاية الجولة، حيث يحصل صاحب أعلى ضرر على العنصر الأول، وهكذا...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>كل <1/> إجمالي ضرر يتم إلحاقه من كلا الجانبين يضيف <2>{0}</2> إلى مجموعة غنائم المعركة.</0><3>يتم توزيع غنائم المعركة في نهاية المعركة، حيث يحصل صاحب أعلى ضرر على العنصر الأول، وهكذا...</3>"
 
@@ -1538,7 +1538,7 @@ msgstr "على الأقل لقد حاولت"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "في نهاية المؤقت، سيتم تخصيص <0>{actualTickPoints}</0> للجانب الأكثر إحداثاً للأضرار."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "انتهت المعركة"
 msgid "Battle Hero"
 msgstr "بطل المعركة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "غنائم المعركة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "مجموعة غنائم المعركة"
 
@@ -1760,7 +1760,7 @@ msgstr "عزز إنتاجك!"
 msgid "Boots"
 msgstr "أحذية"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr "مكافاة"
 
@@ -2377,7 +2377,7 @@ msgstr "تم استرجاع العقد"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "العقود"
@@ -2717,7 +2717,7 @@ msgstr "تقليل"
 msgid "Decrease unrest"
 msgstr "تقليل الاضطرابات"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "دفاع"
 
@@ -2878,7 +2878,7 @@ msgstr "تفكيك العنصر"
 msgid "Dismiss"
 msgstr "تجاهل"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "موزعة"
 
@@ -3993,7 +3993,7 @@ msgstr "حقق <0>{count}</0> ضربات حرجة"
 msgid "Language"
 msgstr "اللغة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "الأخير"
 
@@ -4223,7 +4223,7 @@ msgstr "فرصة الغنيمة"
 msgid "Loot reward"
 msgstr "مكافأة الغنيمة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "الغنائم"
 
@@ -4404,7 +4404,7 @@ msgstr "عقود المرتزقة"
 msgid "Mercenary contracts are currently disabled."
 msgstr "عقود المرتزقة معطلة حالياً."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr "ارباح المرتزقة"
 
@@ -4629,7 +4629,7 @@ msgstr "وصلت الوحدة العسكرية إلى المستوى {0}! الم
 msgid "MU Tournament Winner"
 msgstr "فائز في بطولة الوحدات العسكرية"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "غنائم المعركة الخاصة بي"
 
@@ -5984,7 +5984,7 @@ msgstr "إعادة تعيين اسم المستخدم"
 msgid "Reshuffle in"
 msgstr "إعادة الخلط في"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "قاوم"
 
@@ -6072,7 +6072,7 @@ msgstr "جولة"
 msgid "Round {0}"
 msgstr "الجولة {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "{roundNumber} مجموعة غنائم الجولة"
 
@@ -6103,7 +6103,7 @@ msgstr "الوقت المتوقع لانتهاء الجولة"
 msgid "Round Hero"
 msgstr "بطل الجولة"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "غنائم الجولة"
 
@@ -6871,7 +6871,7 @@ msgstr "هذه المعدات خضراء وكذلك العشب"
 msgid "This feels good, huh?"
 msgstr "هذا شعور جيد، هاه؟"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "هذا ملخص للغنائم التي حصلت عليها من هذه المعركة. يتضمن أي صناديق حصلت عليها بالإضافة إلى العناصر الأكثر قيمة من مجموعة الغنائم المشتركة."
 
@@ -7004,7 +7004,7 @@ msgstr "كتاب العواصف"
 msgid "Tome of Tides"
 msgstr "كتاب الأمواج"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "الأعلى"
@@ -8190,8 +8190,8 @@ msgstr "تم حفظ معلوماتك."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "مخزونك يحتوي على جميع عناصرك. لنرى ما لديك!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "غنائمك"
 

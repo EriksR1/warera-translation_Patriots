@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> in chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 
@@ -1538,7 +1538,7 @@ msgstr "At least you tried"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "لڑائی ختم"
 msgid "Battle Hero"
 msgstr "لڑائی کا سورما"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "لڑائی کی لوٹ"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Battle loot pool"
 
@@ -1760,7 +1760,7 @@ msgstr "Boost your production!"
 msgid "Boots"
 msgstr "Boots"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr "Contract rolled back"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Contracts"
@@ -2717,7 +2717,7 @@ msgstr "Decrease"
 msgid "Decrease unrest"
 msgstr "Decrease unrest"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Defend"
 
@@ -2878,7 +2878,7 @@ msgstr "Dismantle Item"
 msgid "Dismiss"
 msgstr "Dismiss"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Distributed"
 
@@ -3993,7 +3993,7 @@ msgstr "Land <0>{count}</0> critical hits"
 msgid "Language"
 msgstr "زبان"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr ""
 
@@ -4223,7 +4223,7 @@ msgstr "لوٹ کا موقع"
 msgid "Loot reward"
 msgstr "لوٹ کا انعام"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "لوٹیں"
 
@@ -4404,7 +4404,7 @@ msgstr "Mercenary Contracts"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Mercenary contracts are currently disabled."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr "MU reached level {0}! Reward: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "MU Tournament Winner"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "My battle loot"
 
@@ -5984,7 +5984,7 @@ msgstr "Reset Username"
 msgid "Reshuffle in"
 msgstr "Reshuffle in"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Resist"
 
@@ -6072,7 +6072,7 @@ msgstr "Round"
 msgid "Round {0}"
 msgstr "Round {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Round {roundNumber} loot pool"
 
@@ -6103,7 +6103,7 @@ msgstr ""
 msgid "Round Hero"
 msgstr "Round Hero"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Round loot"
 
@@ -6871,7 +6871,7 @@ msgstr "This equipment is green and so is grass"
 msgid "This feels good, huh?"
 msgstr "اچھا لگ رہا ہے ناااااا؟"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "یہ اس سب لوٹ کا خلاصہ ہے جو آپ نے اس جنگ سے جیتی ہو۔ یہ ساری صندوقوں کی مشتمل ہے جو آپ کو ملیں، ساتھ کے ساتھ وہ ساری قیمتی چیزیں "
 
@@ -7004,7 +7004,7 @@ msgstr "Tome of Storms"
 msgid "Tome of Tides"
 msgstr "Tome of Tides"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
@@ -8190,8 +8190,8 @@ msgstr "آپ کی معلومات محفوظ ہو گئی ہے۔"
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Your inventory holds all your items. Let's see what you've got!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "آپ کی لوٹ"
 

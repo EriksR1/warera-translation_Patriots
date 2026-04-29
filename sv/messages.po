@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emojis</0> i chatten"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Varje <1/> skada som delas ut i ronderna av båda sidor lägger till en <2>{0}</2> i denna rondens byte.</0><3>Bytet fördelas efter rondens slut; den som gjort mest skada får bäst byte och så vidare...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Varje <1/> total skada som delas ut av båda sidor lägger till en <2>{0}</2> i denna stridens bytes.</0><3>Bytet fördelas efter stridens slut; den som gjort mest skada får bäst byte och så vidare...</3>"
 
@@ -1538,7 +1538,7 @@ msgstr "Ett tappert försök"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "När tiden löper ut tilldelas <0>{actualTickPoints}</0> den sida som orsakat mest skada."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "Strid avslutad"
 msgid "Battle Hero"
 msgstr "Stridshjälte"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "Stridsbyte"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Gemensam bytespool"
 
@@ -1760,7 +1760,7 @@ msgstr "Öka din produktion!"
 msgid "Boots"
 msgstr "Kängor"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr "Kontrakt återställt"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Kontrakt"
@@ -2717,7 +2717,7 @@ msgstr "Minska"
 msgid "Decrease unrest"
 msgstr "Minska oroligheterna"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Försvara"
 
@@ -2878,7 +2878,7 @@ msgstr "Skrota föremål"
 msgid "Dismiss"
 msgstr "Avfärda"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Utdelat"
 
@@ -3993,7 +3993,7 @@ msgstr "Få <0>{count}</0> fullträffar"
 msgid "Language"
 msgstr "Språk"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "Sista"
 
@@ -4223,7 +4223,7 @@ msgstr "Chans till byte"
 msgid "Loot reward"
 msgstr "Bytesbelöning"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "Byten"
 
@@ -4404,7 +4404,7 @@ msgstr "Legoknektskontrakt"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Legoknektskontrakt är för närvarande deaktiverade."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr "Förbandet nådde nivå {0}! Belöning: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "Vinnare av förbandsturnering"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "Mitt stridsbyte"
 
@@ -5984,7 +5984,7 @@ msgstr "Återställ användarnamn"
 msgid "Reshuffle in"
 msgstr "Omfördelning om"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Motstånd"
 
@@ -6072,7 +6072,7 @@ msgstr "Rond"
 msgid "Round {0}"
 msgstr "Rond {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Bytespool för rond {roundNumber}"
 
@@ -6103,7 +6103,7 @@ msgstr "Rundans beräknade sluttid"
 msgid "Round Hero"
 msgstr "Rondhjälte"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Rondbyte"
 
@@ -6871,7 +6871,7 @@ msgstr "Denna utrustning är grön, precis som gräset"
 msgid "This feels good, huh?"
 msgstr "Det här känns bra, eller hur?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Detta är en sammanfattning av det byte du erhållit från striden. Det inkluderar lådor samt de mest värdefulla föremålen från den gemensamma bytespoolen."
 
@@ -7004,7 +7004,7 @@ msgstr "Stormarnas bok"
 msgid "Tome of Tides"
 msgstr "Tidvattnets bok"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Topp"
@@ -8190,8 +8190,8 @@ msgstr "Dina uppgifter har sparats."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ditt förråd rymmer alla dina föremål. Låt oss se vad du har!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "Ditt byte"
 

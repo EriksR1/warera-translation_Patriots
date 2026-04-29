@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Meow</0> meow meow"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Meow <1/> meow meow meow meow meow meow meow meow meow meow <2>{0}</2> meow meow meow meow meow.</0><3>Meow meow meow meow meow meow meow meow meow meow, meow 1 meow meow meow meow 1 meow meow meow meow...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Meow <1/> meow meow meow meow meow meow meow meow <2>{0}</2> meow meow meow meow meow.</0><3>Meow meow meow meow meow meow meow meow meow meow, meow 1 meow meow meow meow 1 meow meow meow meow...</3>"
 
@@ -1538,7 +1538,7 @@ msgstr "Meow meow meow meow"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Meow meow meow meow meow meow <0>{actualTickPoints}</0> meow meow meow meow meow meow meow meow meow meow."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "Meow meow"
 msgid "Battle Hero"
 msgstr "Meow Meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "Meow meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Meow meow meow"
 
@@ -1760,7 +1760,7 @@ msgstr "Meow meow meow!"
 msgid "Boots"
 msgstr "Meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr "Meow meow meow"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Meow"
@@ -2717,7 +2717,7 @@ msgstr "Meow"
 msgid "Decrease unrest"
 msgstr "Meow meow"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Meow"
 
@@ -2878,7 +2878,7 @@ msgstr "Meow Meow"
 msgid "Dismiss"
 msgstr "Meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Meow"
 
@@ -3993,7 +3993,7 @@ msgstr "Meow <0>{count}</0> meow meow"
 msgid "Language"
 msgstr "Meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "Meow"
 
@@ -4223,7 +4223,7 @@ msgstr "Meow meow"
 msgid "Loot reward"
 msgstr "Meow meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "Meow"
 
@@ -4404,7 +4404,7 @@ msgstr "Meow Meow"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Meow meow meow meow meow."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr "Meow meow meow {0}! Meow: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "Meow Meow Meow"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "Meow meow meow"
 
@@ -5984,7 +5984,7 @@ msgstr "Meow Meow"
 msgid "Reshuffle in"
 msgstr "Meow meow"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Meow"
 
@@ -6072,7 +6072,7 @@ msgstr "Meow"
 msgid "Round {0}"
 msgstr "Meow {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Meow {roundNumber} meow meow"
 
@@ -6103,7 +6103,7 @@ msgstr "Meow Meow"
 msgid "Round Hero"
 msgstr "Meow Meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Meow meow"
 
@@ -6871,7 +6871,7 @@ msgstr "Meow meow meow meow meow meow meow meow"
 msgid "This feels good, huh?"
 msgstr "Meow meow meow, meow?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Meow meow meow meow meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow."
 
@@ -7004,7 +7004,7 @@ msgstr "Meow meow Meow"
 msgid "Tome of Tides"
 msgstr "Meow meow Meow"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Meow"
@@ -8190,8 +8190,8 @@ msgstr "Meow meow meow meow meow."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Meow meow meow meow meow meow. Meow'meow meow meow meow'meow meow!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "Meow meow"
 

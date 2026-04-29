@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Эмодзи</0> в чатах"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
@@ -1538,7 +1538,7 @@ msgstr "Ты хотя бы попытался"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "По истечении таймера <0>{actualTickPoints}</0> будут зачислены стороне с наибольшим уроном."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "Битва окончена"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr ""
 
@@ -1760,7 +1760,7 @@ msgstr "Увеличьте своё производство!"
 msgid "Boots"
 msgstr "Берцы"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr ""
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr ""
@@ -2717,7 +2717,7 @@ msgstr ""
 msgid "Decrease unrest"
 msgstr ""
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Защита"
 
@@ -2878,7 +2878,7 @@ msgstr "Разбор предметов"
 msgid "Dismiss"
 msgstr "Отклонить"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr ""
 
@@ -3993,7 +3993,7 @@ msgstr "Нанесите критический урон <0>{count}</0> раз"
 msgid "Language"
 msgstr "Язык"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr ""
 
@@ -4223,7 +4223,7 @@ msgstr "Шанс лута"
 msgid "Loot reward"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr ""
 
@@ -4404,7 +4404,7 @@ msgstr ""
 msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr ""
 
@@ -5984,7 +5984,7 @@ msgstr "Сбросить никнейм"
 msgid "Reshuffle in"
 msgstr "Перераспределение через"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Бороться"
 
@@ -6072,7 +6072,7 @@ msgstr ""
 msgid "Round {0}"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr ""
 
@@ -6103,7 +6103,7 @@ msgstr ""
 msgid "Round Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr ""
 
@@ -6871,7 +6871,7 @@ msgstr "Эта экипировка зелена, как и трава"
 msgid "This feels good, huh?"
 msgstr "Хорошее чувство, да?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr ""
 
@@ -7004,7 +7004,7 @@ msgstr ""
 msgid "Tome of Tides"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Топ"
@@ -8190,8 +8190,8 @@ msgstr "Ваши данные сохранены."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ваш инвентарь содержит все Ваши предметы. Давай посмотрим, что у вас есть!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr ""
 

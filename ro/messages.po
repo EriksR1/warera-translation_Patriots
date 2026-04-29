@@ -670,12 +670,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emoticoane</0> în chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Fiecare <1/> daune totale în această rundă adaugă o <2>{0}</2> la prada rundei.</0><3>Prada e distribuită la sfârșitul rundei, locul 1 primind cel mai bun item, ș.a.m.d.</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Fiecare <1/> daune totale adaugă o <2>{0}</2> la prada luptei.</0><3>Prada e distribuită la sfârșitul luptei, locul 1 primind cel mai bun item, ș.a.m.d.</3>"
 
@@ -1536,7 +1536,7 @@ msgstr "Măcar ai încercat"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "La sfârșitul timpului, partea cu cele mai multe daune cauzate va câștiga <0>{actualTickPoints}</0>."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1683,11 +1683,11 @@ msgstr "Bătălia s-a încheiat"
 msgid "Battle Hero"
 msgstr "Eroul Luptei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "Prada luptei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Prada luptei"
 
@@ -1758,7 +1758,7 @@ msgstr "Îmbunătățește-ți producția!"
 msgid "Boots"
 msgstr "Cizme"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2375,7 +2375,7 @@ msgstr "Contract inversat"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Contracte"
@@ -2715,7 +2715,7 @@ msgstr "Scade"
 msgid "Decrease unrest"
 msgstr "Scade tensiunea"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Apără"
 
@@ -2876,7 +2876,7 @@ msgstr "Dezmembrează obiect"
 msgid "Dismiss"
 msgstr "Închide"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Distribuite"
 
@@ -3991,7 +3991,7 @@ msgstr "Dă <0>{count}</0> lovituri critice"
 msgid "Language"
 msgstr "Limbă"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "Ultimul"
 
@@ -4221,7 +4221,7 @@ msgstr "Șansă pradă"
 msgid "Loot reward"
 msgstr "Pradă"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "Pradă"
 
@@ -4402,7 +4402,7 @@ msgstr "Contracte mercenar"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Contractele pentru mercenari sunt dezactivate momentan."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4627,7 +4627,7 @@ msgstr "UM a ajuns la nivelul {0}! Premiu: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "Câștigător turneu pe UM"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "Prada mea"
 
@@ -5982,7 +5982,7 @@ msgstr "Resetează Nume"
 msgid "Reshuffle in"
 msgstr "Redistribuire în"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Rezistă"
 
@@ -6070,7 +6070,7 @@ msgstr "Runda"
 msgid "Round {0}"
 msgstr "Runda {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Pradă runda {roundNumber}"
 
@@ -6101,7 +6101,7 @@ msgstr "Timp rămas estimat"
 msgid "Round Hero"
 msgstr "Eroul Rundei"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Pradă rundă"
 
@@ -6869,7 +6869,7 @@ msgstr "Acest obiect e verde ca iarba"
 msgid "This feels good, huh?"
 msgstr "Se simte bine, nu?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Acesta e un rezumat cu prada din această luptă. Include toate cutiile primite, dar și obiectele valoroase din prada distribuită."
 
@@ -7002,7 +7002,7 @@ msgstr ""
 msgid "Tome of Tides"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
@@ -8188,8 +8188,8 @@ msgstr "Informațiile au fost salvate."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Inventarul tău conține toate obiectele tale. Să vedem ce ai în el!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "Prada ta"
 

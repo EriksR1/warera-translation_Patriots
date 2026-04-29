@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "在聊天中使用 <0>表情符號</0> "
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
@@ -1538,7 +1538,7 @@ msgstr "至少你試過了"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "在倒計時結束時， <0>{actualTickPoints}</0> 將會被發派到傷害較多的一邊。"
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "戰鬥已結束"
 msgid "Battle Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr ""
 
@@ -1760,7 +1760,7 @@ msgstr "增加你的產量！"
 msgid "Boots"
 msgstr "靴子"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr ""
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr ""
@@ -2717,7 +2717,7 @@ msgstr "減少"
 msgid "Decrease unrest"
 msgstr "減少動盪值"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "防禦"
 
@@ -2878,7 +2878,7 @@ msgstr "拆解物品"
 msgid "Dismiss"
 msgstr "消除"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr ""
 
@@ -3993,7 +3993,7 @@ msgstr "造成 <0>{count}</0> 次暴擊傷害"
 msgid "Language"
 msgstr "語言"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr ""
 
@@ -4223,7 +4223,7 @@ msgstr "戰利品機率"
 msgid "Loot reward"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr ""
 
@@ -4404,7 +4404,7 @@ msgstr ""
 msgid "Mercenary contracts are currently disabled."
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr ""
 msgid "MU Tournament Winner"
 msgstr ""
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr ""
 
@@ -5984,7 +5984,7 @@ msgstr "重置用戶名稱"
 msgid "Reshuffle in"
 msgstr "重置於"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "抵抗"
 
@@ -6072,7 +6072,7 @@ msgstr ""
 msgid "Round {0}"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr ""
 
@@ -6103,7 +6103,7 @@ msgstr ""
 msgid "Round Hero"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr ""
 
@@ -6871,7 +6871,7 @@ msgstr "這件裝備跟草一樣綠"
 msgid "This feels good, huh?"
 msgstr "感覺不賴，對吧？"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr ""
 
@@ -7004,7 +7004,7 @@ msgstr ""
 msgid "Tome of Tides"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "熱門"
@@ -8190,8 +8190,8 @@ msgstr "你的資訊已儲存"
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "倉庫中存放著你的所有物品，來看看都有什麼！"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr ""
 

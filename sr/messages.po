@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Емотикони</0> у ћаскању"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>На сваких <1/> штете нанете у овој рунди на обе стране, у фонд плена рунде се додаје <2>{0}</2>.</0><3>Плен рунде се расподељује на крају рунде, играч са највећом нанетом штетом добија први предмет и тако даље...</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>На сваких <1/> укупне штете нанете на обе стране, у фонд бојног плена се додаје <2>{0}</2>.</0><3>Бојни плен се расподељује на крају битке, играч са највећом нанетом штетом добија први предмет и тако даље...</3>"
 
@@ -1538,7 +1538,7 @@ msgstr "Барем си покушао"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "По истеку тајмера, <0>{actualTickPoints}</0> ће бити додељено страни са највише нанесене штете."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "Битка завршена"
 msgid "Battle Hero"
 msgstr "Херој битке"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "Плен из битке"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Укупан плен из битке"
 
@@ -1760,7 +1760,7 @@ msgstr "Појачај своју производњу!"
 msgid "Boots"
 msgstr "Чизме"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr "Уговор поништен"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Уговори"
@@ -2717,7 +2717,7 @@ msgstr "Смањи"
 msgid "Decrease unrest"
 msgstr "Смањи немир"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Одбрани"
 
@@ -2878,7 +2878,7 @@ msgstr "Растави предмет"
 msgid "Dismiss"
 msgstr "Одбаци"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Расподељено"
 
@@ -3993,7 +3993,7 @@ msgstr "Задај <0>{count}</0> крит. ударца"
 msgid "Language"
 msgstr "Језик"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "Последње"
 
@@ -4223,7 +4223,7 @@ msgstr "Шанса за плен"
 msgid "Loot reward"
 msgstr "Награда плена"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "Плен"
 
@@ -4404,7 +4404,7 @@ msgstr "Плаћенички уговори"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Плаћенички уговори су тренутно онемогућени."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr "ВЈ достигла ниво {0}!  Награда: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "Победник турнира ВЈ"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "Мој плен из битке"
 
@@ -5984,7 +5984,7 @@ msgstr "Ресетуј корисничко име"
 msgid "Reshuffle in"
 msgstr "Преразмештање за"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Отпор"
 
@@ -6072,7 +6072,7 @@ msgstr "Рунда"
 msgid "Round {0}"
 msgstr "Рунда {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Плен у рунди {roundNumber}"
 
@@ -6103,7 +6103,7 @@ msgstr "Процена краја рунде"
 msgid "Round Hero"
 msgstr "Херој рунде"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Плен рунде"
 
@@ -6871,7 +6871,7 @@ msgstr "Ова опрема је зелена, као и трава"
 msgid "This feels good, huh?"
 msgstr "Добар осећај, зар не?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Ово је резиме плена који сте добили у овој бици. Укључује сва сандучића која сте добили, као и највредније предмете из заједничког фонда плена."
 
@@ -7004,7 +7004,7 @@ msgstr "Књига олуја"
 msgid "Tome of Tides"
 msgstr "Књига плиме и осеке"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Топ"
@@ -8190,8 +8190,8 @@ msgstr "Твоје информације су сачуване."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Твој инвентар садржи све твоје предмете. Хајде да видимо шта имаш!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "Твој плен"
 

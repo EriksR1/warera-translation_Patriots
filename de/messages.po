@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Emotes</0> im Chat"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Jeder verursachte <1/> Schaden in dieser Runde (beide Seiten) fügt dem Runden-Lootpool ein <2>{0}</2> hinzu.</0><3>Die Rundenbeute wird am Ende der Runde verteilt: Platz 1 erhält den besten Gegenstand, danach folgt Platz 2 usw.</3>"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr "<0>Jeder verursachte <1/> Gesamtschaden (beide Seiten) fügt dem Schlacht-Lootpool ein <2>{0}</2> hinzu.</0><3>Die Schlachtbeute wird am Ende der Schlacht verteilt: Platz 1 erhält den besten Gegenstand, danach folgt Platz 2 usw.</3>"
 
@@ -1538,7 +1538,7 @@ msgstr "Du hast es zumindest versucht"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Am Ende des Timers werden <0>{actualTickPoints}</0> der Seite mit dem meisten Schaden zugewiesen."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "Schlacht beendet"
 msgid "Battle Hero"
 msgstr "Schlachtenheld"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "Schlachtbeute"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Schlacht-Lootpool"
 
@@ -1760,7 +1760,7 @@ msgstr "Kurbele deine Produktion an!"
 msgid "Boots"
 msgstr "Stiefel"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr "Vertrag rückgängig gemacht"
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Verträge"
@@ -2717,7 +2717,7 @@ msgstr "Verringern"
 msgid "Decrease unrest"
 msgstr "Unruhen verringern"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Verteidigen"
 
@@ -2878,7 +2878,7 @@ msgstr "Gegenstand zerlegen"
 msgid "Dismiss"
 msgstr "Entlassen"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Verteilt"
 
@@ -3993,7 +3993,7 @@ msgstr "Erziele <0>{count}</0> kritische Treffer"
 msgid "Language"
 msgstr "Sprache"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "Letzte"
 
@@ -4223,7 +4223,7 @@ msgstr "Loot-Chance"
 msgid "Loot reward"
 msgstr "Beutebelohnung"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "Beute"
 
@@ -4404,7 +4404,7 @@ msgstr "Söldnerverträge"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Söldnerverträge sind derzeit deaktiviert."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr "ME hat Level {0} erreicht! Belohnung: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "ME-Turniersieger"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "Meine Schlachtbeute"
 
@@ -5984,7 +5984,7 @@ msgstr "Benutzernamen zurücksetzen"
 msgid "Reshuffle in"
 msgstr "Neuverteilung in"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Widersetzen"
 
@@ -6072,7 +6072,7 @@ msgstr "Runde"
 msgid "Round {0}"
 msgstr "Runde {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Lootpool Runde {roundNumber}"
 
@@ -6103,7 +6103,7 @@ msgstr "Runden-ETA"
 msgid "Round Hero"
 msgstr "Rundenheld"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Rundenbeute"
 
@@ -6871,7 +6871,7 @@ msgstr "Diese Ausrüstung ist grün, genau wie Gras"
 msgid "This feels good, huh?"
 msgstr "Das fühlt sich gut an, oder?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Übersicht über deine Beute aus dieser Schlacht. Enthält alle Kisten und die wertvollsten Gegenstände aus dem gemeinsamen Lootpool."
 
@@ -7004,7 +7004,7 @@ msgstr "Buch der Stürme"
 msgid "Tome of Tides"
 msgstr "Buch der Gezeiten"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Top"
@@ -8190,8 +8190,8 @@ msgstr "Deine Informationen wurden gespeichert."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Dein Inventar enthält alle deine Gegenstände. Mal sehen, was du hast!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "Deine Beute"
 

@@ -672,12 +672,12 @@ msgid "<0>Emotes</0> in chat"
 msgstr "<0>Емоції</0> у чаті"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:71
+#: src/components/_military/damageRanking/BattleLoot.tsx:62
 msgid "<0>Every <1/> damage dealt in this round across both sides rolls an <2>{0}</2> into the round loot pool.</0><3>Round loot are distributed at the end of the round, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/BattleLoot.tsx:84
+#: src/components/_military/damageRanking/BattleLoot.tsx:75
 msgid "<0>Every <1/> total damage dealt across both sides rolls an <2>{0}</2> into the battle loot pool.</0><3>Battle loot are distributed at the end of the battle, top 1 damage dealer get top 1 item and so on...</3>"
 msgstr ""
 
@@ -1538,7 +1538,7 @@ msgstr "Ну, ти спробував"
 msgid "At the end of the timer <0>{actualTickPoints}</0> will be assigned to the side with the most damages."
 msgstr "Коли таймер дійде нуля, <0>{actualTickPoints}</0> буде присвоєно стороні з більшою шкодою."
 
-#: src/components/_military/hit/HitButton.tsx:444
+#: src/components/_military/hit/HitButton.tsx:454
 #: src/components/_user/user/skills.frontConfig.tsx:44
 #: src/components/_user/user/skills.frontConfig.tsx:45
 msgid "Attack"
@@ -1685,11 +1685,11 @@ msgstr "Битва закінчилась"
 msgid "Battle Hero"
 msgstr "Герой битви"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Battle loot"
 msgstr "Бойова здобич"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Battle loot pool"
 msgstr "Низка бойової здобичі"
 
@@ -1760,7 +1760,7 @@ msgstr "Збільште продуктивність!"
 msgid "Boots"
 msgstr "Чоботи"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:139
+#: src/components/_military/battle/LootSummaryCard.tsx:104
 msgid "Bounty"
 msgstr ""
 
@@ -2377,7 +2377,7 @@ msgstr ""
 #: src/components/_military/battle/BattleHeader.tsx:312
 #: src/components/_military/battle/BattlesHeader.tsx:43
 #: src/components/_military/battle/BattleSideContractsModal.tsx:47
-#: src/components/_military/damageRanking/BattleLoot.tsx:131
+#: src/components/_military/battle/LootSummaryCard.tsx:96
 #: src/components/_political/country/CountryHeader.tsx:132
 msgid "Contracts"
 msgstr "Контракти"
@@ -2717,7 +2717,7 @@ msgstr "Зменшити"
 msgid "Decrease unrest"
 msgstr "Зменшити заворушення"
 
-#: src/components/_military/hit/HitButton.tsx:447
+#: src/components/_military/hit/HitButton.tsx:457
 msgid "Defend"
 msgstr "Оборона"
 
@@ -2878,7 +2878,7 @@ msgstr "Розбір предметів"
 msgid "Dismiss"
 msgstr "Скасувати"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:106
+#: src/components/_military/damageRanking/BattleLoot.tsx:97
 msgid "Distributed"
 msgstr "Розподілено"
 
@@ -3993,7 +3993,7 @@ msgstr "Завдайте <0>{count}</0> критичних ударів"
 msgid "Language"
 msgstr "Мова"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:154
+#: src/components/_military/damageRanking/BattleLoot.tsx:116
 msgid "Last"
 msgstr "Останнє"
 
@@ -4223,7 +4223,7 @@ msgstr "Шанс здобичі"
 msgid "Loot reward"
 msgstr ""
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:168
+#: src/components/_military/damageRanking/BattleLoot.tsx:130
 msgid "Loots"
 msgstr "Здобич"
 
@@ -4404,7 +4404,7 @@ msgstr "Найманські контракти"
 msgid "Mercenary contracts are currently disabled."
 msgstr "Найманські контракти наразі вимкнені."
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:125
+#: src/components/_military/battle/LootSummaryCard.tsx:90
 msgid "Mercenary earnings"
 msgstr ""
 
@@ -4629,7 +4629,7 @@ msgstr "ВП досяг рівня {0}! Нагорода: {rewardDisplay}"
 msgid "MU Tournament Winner"
 msgstr "Переможець турніру між ВП"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:78
+#: src/components/_military/battle/LootSummaryCard.tsx:121
 msgid "My battle loot"
 msgstr "Моя бойова здобич"
 
@@ -5984,7 +5984,7 @@ msgstr "Скинути прізвисько"
 msgid "Reshuffle in"
 msgstr "Змінить розташування через"
 
-#: src/components/_military/hit/HitButton.tsx:442
+#: src/components/_military/hit/HitButton.tsx:452
 msgid "Resist"
 msgstr "Опір"
 
@@ -6072,7 +6072,7 @@ msgstr "Раунд"
 msgid "Round {0}"
 msgstr "Раунд {0}"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:99
+#: src/components/_military/damageRanking/BattleLoot.tsx:90
 msgid "Round {roundNumber} loot pool"
 msgstr "Низка здобичі у раунді {roundNumber}"
 
@@ -6103,7 +6103,7 @@ msgstr "Очікуваний кінець раунду"
 msgid "Round Hero"
 msgstr "Герой раунду"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:69
+#: src/components/_military/damageRanking/BattleLoot.tsx:60
 msgid "Round loot"
 msgstr "Здобич у раунді"
 
@@ -6871,7 +6871,7 @@ msgstr "Трава теж зелена, ти знав?"
 msgid "This feels good, huh?"
 msgstr "Приємне відчуття, скажи?"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:50
+#: src/components/_military/battle/LootSummaryCard.tsx:63
 msgid "This is a summary of the loot you received from this battle. It includes any cases you got as well as the most valuable items from the shared loot pool."
 msgstr "Це підсумок здобичі, яку ви отримали у цій битві. Вона включає усі кейси, котрі ви отримали, а також найбільш цінні предмети зі спільної низки здобичі."
 
@@ -7004,7 +7004,7 @@ msgstr "Книга штормів"
 msgid "Tome of Tides"
 msgstr "Книга припливів"
 
-#: src/components/_military/damageRanking/BattleLoot.tsx:162
+#: src/components/_military/damageRanking/BattleLoot.tsx:124
 #: src/components/_social/ArticleList.tsx:181
 msgid "Top"
 msgstr "Найкращі"
@@ -8190,8 +8190,8 @@ msgstr "Ваша інформація була збережена."
 msgid "Your inventory holds all your items. Let's see what you've got!"
 msgstr "Ваш інвентар зберігає усі ваші предемти. Погляньмо, що у вас є!"
 
-#: src/components/_military/battle/LootSummaryCard.tsx:49
-#: src/components/_military/battle/LootSummaryCard.tsx:53
+#: src/components/_military/battle/LootSummaryCard.tsx:62
+#: src/components/_military/battle/LootSummaryCard.tsx:66
 msgid "Your loot"
 msgstr "Ваша здобич"
 
